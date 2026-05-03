@@ -145,7 +145,7 @@ def fetch_resident_advisor(start, end):
         """
         variables = {
             "filters": {
-                "areas": {"eq": 13},  # New York area ID
+                "areas": {"eq": 8},  # New York City area ID
                 "listingDate": {
                     "gte": start.strftime("%Y-%m-%d"),
                     "lte": end.strftime("%Y-%m-%d")
